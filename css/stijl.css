@@ -10,6 +10,10 @@ iframe {
 .starrating {
   color: white;
 }
+.form-check-input:checked {
+  background-color: darkblue;
+  /* border-color: darkblue; */
+}
 .bg-grey {
   background-color: #ddd;
 }
