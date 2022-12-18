@@ -169,6 +169,9 @@ hr.dotted {
   color: white;
   background-color: black;
 }
+.accordion{
+  padding: 0px;
+}
 .midden{
   left: 50%;
   transform: translate(-50%, 0)
@@ -230,6 +233,12 @@ html {
   
   margin-bottom: 6%;
 }
+
+
+
+
+
+
 @media screen and (max-width: 990px) {
    /* Place the timelime to the left */
    .timeline::after {
@@ -288,6 +297,3 @@ html {
     }
     
   }
-* {
-  box-sizing: border-box;
-}
