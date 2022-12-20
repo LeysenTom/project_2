@@ -180,11 +180,8 @@ hr.dotted {
   border-bottom-width: 5px;
 }
 .bg {
-  /* The image used */
   background-image: url("../afbeeldingen/werkplek_donker.avif");
-  /* Full height */
   height: 100%;
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -235,8 +232,8 @@ html {
 .align-textr-right {
   text-align: right; 
 }
-.carousel-item img {
-  height: 50%;
+.h-200{
+  height: 200% !important;
 }
 .carousel-caption {
   background-color: black;
@@ -265,11 +262,17 @@ html {
   background-color: black;
   background: rgba(0, 0, 0, 0.4);
 }
+.carousel-indicators {
+  background: rgba(0, 0, 0, 0.2);
+
+}
 .item > img {
   height: 20vh;
 }
 
-
+.mb-7 {
+  margin-bottom: 6rem !important;
+}
 
 
 
@@ -328,6 +331,12 @@ html {
     }
     .card-sm-m-b {
       margin-bottom: 30%;
+    }
+    .mb-6 {
+      margin-bottom: 6rem !important;
+    }
+    .w-sm-100 {
+      width: 100% !important;
     }
     
   }
